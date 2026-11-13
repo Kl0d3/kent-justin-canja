@@ -16,27 +16,27 @@ body {
 
 .container {
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
 
 header {
-    background: #2c3e50;
+    background: #1e3c72;
     color: #fff;
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 10px;
 }
 
 header .tagline {
     font-size: 1.2rem;
-    color: #bdc3c7;
+    color: #a8dadc;
 }
 
 main {
@@ -58,7 +58,7 @@ main {
 }
 
 .card h2 {
-    color: #2c3e50;
+    color: #1e3c72;
     margin-bottom: 15px;
     font-size: 1.5rem;
     border-bottom: 2px solid #ecf0f1;
@@ -66,17 +66,33 @@ main {
 }
 
 .card ul {
-    list-style-type: square;
+    list-style-type: disc;
     padding-left: 20px;
 }
 
 .card li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills-grid span {
+    background: #eef2f7;
+    color: #1e3c72;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 footer {
-    background: #2c3e50;
-    color: #bdc3c7;
+    background: #1e3c72;
+    color: #a8dadc;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9rem;
